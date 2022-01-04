@@ -62,4 +62,4 @@ Fixed errors found in the prepared process for the first chapter of the CTF. Beg
 Remade netlify, fixing deployment to production issues.
 
 #### 1.4.22 Justin Kim & Ethan Shan
-Finished everything else including the 3D texts, getting the gcode, making the presentation, learning Burp Suite, learning how to do an SQL injection attack on Burp Suite, making the new web pages for the Burp Suite login and the g code and the final page, literally everything. Current time: 4:31AM
+Finished everything else including the 3D texts, getting the gcode, making the presentation, learning Burp Suite, learning how to do an SQL injection attack on Burp Suite, making the new web pages for the Burp Suite login and the g code and the final page, setting up pm2 and nginx on digitalocean, fixed the netlify issue thats been bugging us for a good week, literally everything. Current time: 4:35AM
