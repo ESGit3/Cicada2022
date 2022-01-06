@@ -19,7 +19,6 @@ https://cicada2022.netlify.app/
 presentation:
 https://docs.google.com/presentation/d/1xV6mxhSRTAj6tqIDWGwMXITd-NGWjXFUWJLZND4w5QM/edit#slide=id.p
 
-
 ## Logs
 #### 12.14.2021 Justin Kim
 Continued making progress with the test walkthrough to ensure that our process works.

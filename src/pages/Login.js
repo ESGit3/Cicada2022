@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LoginService from "../services/login";
 
 const Login = () => {
     const [username, setUsername] = useState('');
@@ -6,16 +7,21 @@ const Login = () => {
     const [loginSuccess, setLoginSuccess] = useState(false);
     const [incorrect, setIncorrect] = useState(false);
 
-    const handleSubmit = () => {
+    const handleSubmit = async () => {
       if (!username || !password) {
           console.log('missing fields');
       }  else {
-          if (username === 'admin' && password === 'pass') {
-              setIncorrect(false);
-              setLoginSuccess(true);
-          } else {
-              setIncorrect(true);
-          }
+         const response = await LoginService.login({
+             username,
+             password
+         });
+
+         if (response.data.success) {
+             setIncorrect(false);
+             setLoginSuccess(true);
+         } else {
+             setIncorrect(true);
+         }
       }
     };
 
