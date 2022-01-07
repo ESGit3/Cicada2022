@@ -14,7 +14,7 @@ all project notes:
 https://docs.google.com/document/d/19O1Jv3exhyIJpb1WKHl87LLgp-Q_c6ybfzy4AhoCXrA/edit?usp=sharing
 
 main website:
-https://cicada2022.netlify.app/
+http://147.182.222.18/
 
 presentation:
 https://docs.google.com/presentation/d/1xV6mxhSRTAj6tqIDWGwMXITd-NGWjXFUWJLZND4w5QM/edit#slide=id.p
